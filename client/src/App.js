@@ -12,7 +12,7 @@ function App() {
   }
 
   const onSubmit = () => {
-    fetch('https://heroku-test-neri-6c75de1160cd.herokuapp.com/api/deneme-submission', {
+    fetch('https://heroku-test-neri-6c75de1160cd.herokuapp.com/api/test-submission', {
       method: 'POST',
       body: JSON.stringify({ message: input }),
       headers: {

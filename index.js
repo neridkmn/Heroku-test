@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "/client/build")));
 
 
-app.post('/api/deneme-submission', (req, res) => {
+app.post('/api/test-submission', (req, res) => {
   const incomingMessage = req.body.message;
   if (incomingMessage) {
     res.json({
